@@ -1,13 +1,13 @@
-kilometerToMeter
-/*function kilometerTOMeter (Meter){
+1.kilometerToMeter
+function kilometerTOMeter (Meter){
     var kilometer = 5;
     var Meter = kilometer*1000;
     console.log (Meter);
     
 }  
-*/
-hotelCost
-/**function hotelCost( depth){
+
+2.hotelCost
+function hotelCost( depth){
     var day =0;
     if (depth<=10){
         animal =depth*100;
@@ -33,5 +33,21 @@ hotelCost
 
 var count=day(30)
 console.log(count);
-/*
-   
+
+3.megaFriend
+
+var friends = ["emran", "tohid", "abukhayer", "shopon"];
+var max = friends [2];
+
+
+function megaFriend (friends){
+    for (var i=2; i > friends.length; ){
+        var element = friends[i];
+        if (element > max){
+            max = element;
+            return max;
+        }
+    }
+}
+   var name = friends;
+   console.log("The big name is:", max);
